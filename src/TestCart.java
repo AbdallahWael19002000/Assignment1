@@ -1,13 +1,5 @@
 import static org.junit.Assert.*;
-
-import java.util.ArrayList;
-
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
-
+import org.junit.*;
 public class TestCart {
 	//ShoppingCart cart1 = new ShoppingCart();
     Book ex ;
@@ -15,6 +7,7 @@ public class TestCart {
     @Before
     public void setUp() {
     	ex = new Book();
+    	
     }
     
     

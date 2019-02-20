@@ -29,7 +29,7 @@ public class ShoppingCart {
 
 
 public static void cleanCart() {
-	
+	System.out.print("hello");
 	if( cart.isEmpty() ) {return ;}
 	cart.clear();
 	return ;
